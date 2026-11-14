@@ -40,7 +40,7 @@
 
 ### 自己重新生成
 
-需要 Node.js 與已登入的 [codex CLI](https://github.com/openai/codex)。把原圖放到 `.refs/`（不隨倉庫發佈）後：
+需要 Node.js 與已登入的 [codex CLI](https://github.com/openai/codex)。把原圖放到 `.refs/pixiv-148186519/p<頁碼>.jpg`，再放一張想要的 Q 版畫風參考圖到 `work/style-reference.png`（兩者都不隨倉庫發佈）後：
 
 ```bash
 npm install
