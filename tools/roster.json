@@ -118,5 +118,15 @@
       "reference": ".refs/pixiv-148186519/p16.jpg",
       "notes": "very long straight teal hair, teal eyes, headphones, long teal wide-sleeved explorer robe with pale geometric trim over a white dress, brown leather belt with pouches, dark boots. Leave out the staff, the lantern and the compass."
     }
-  ]
+  ],
+  "world": {
+    "id": "zipzippipe-ai-girls",
+    "name": "ZipZipPipe AI娘化",
+    "slots": {
+      "gpt": "chatgpt",
+      "grok": "grok",
+      "gemini": "llama",
+      "claude": "claude"
+    }
+  }
 }

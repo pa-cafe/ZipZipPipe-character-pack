@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 // Builds one importable file per character: packs/<id>.pacafe-character.json (format "pa-cafe-character" v1).
+// Also builds packs/<world id>.pacafe-look-pack.json: one file that reskins the cafe's four built-in residents (roster.world.slots).
 // Usage: node tools/build.mjs [id...]   (default: every character whose four images exist)
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
@@ -29,3 +30,17 @@ for (const character of roster.characters) {
   console.log(`ok   ${character.id}: ${(text.length / 1024 / 1024).toFixed(2)} MB`);
 }
 if (!wanted.length) writeFileSync(join(root, 'packs/index.json'), JSON.stringify({ format: 'pa-cafe-character-index', version: 1, characters: index }, null, 2) + '\n');
+
+// The whole-cafe look pack: PA Cafe's built-in resident slots (gpt = dots, grok = Grok Bot, gemini = Muse, claude = Claude) each get one character.
+if (!wanted.length && roster.world) {
+  const embed = id => Object.fromEntries(Object.entries(files).map(([kind, name]) => [kind, `data:image/png;base64,${readFileSync(join(root, 'characters', id, name)).toString('base64')}`]));
+  const byId = Object.fromEntries(roster.characters.map(c => [c.id, c])), used = Object.values(roster.world.slots);
+  const world = {
+    format: 'pa-cafe-look-pack', version: 1, id: roster.world.id, name: roster.world.name,
+    license: { name: 'CC BY-NC-SA 4.0', url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/' },
+    credits: [...(used.includes('deepseek') ? [shangshan] : []), zip, pack], source: roster.repository,
+    characters: Object.fromEntries(Object.entries(roster.world.slots).map(([slot, id]) => [slot, { name: byId[id].name, files: embed(id) }])),
+  };
+  const text = JSON.stringify(world); writeFileSync(join(root, 'packs', `${roster.world.id}.pacafe-look-pack.json`), text);
+  console.log(`ok   world ${roster.world.id}: ${(text.length / 1024 / 1024).toFixed(2)} MB (${Object.entries(roster.world.slots).map(([s, id]) => `${s}=${id}`).join(', ')})`);
+}

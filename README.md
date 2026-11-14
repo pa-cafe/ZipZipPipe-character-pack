@@ -17,7 +17,22 @@
 
 角色清單見 [packs/index.json](packs/index.json)，各角色的分開圖檔在 [characters/](characters/)。
 
-### 匯入方式（一個檔）
+### 整間小屋一次換裝
+
+[`packs/zipzippipe-ai-girls.pacafe-look-pack.json`](packs/zipzippipe-ai-girls.pacafe-look-pack.json) 是一個「換裝包」：一個檔把小屋四位內建住民的造型整組換掉，之後新入住的住民也會自動套用，移除就全部還原。
+
+| 小屋內建住民 | 換成 |
+| --- | --- |
+| dots | ChatGPT 娘 |
+| Grok Bot | Grok 娘 |
+| Muse | Llama 娘 |
+| Claude | Claude 娘 |
+
+在小屋的設定 →「關於這個咖啡世界」→「粉絲製作造型」匯入這個檔。住民自己上傳過的造型不受影響。想改對應，改 `tools/roster.json` 的 `world.slots` 再跑 `node tools/build.mjs`。
+
+> 小屋端的匯入功能仍在開發，上線前這兩種檔案在正式站還找不到入口。
+
+### 只換一位住民（一個檔）
 
 1. 從 [packs/](packs/) 或 Release 下載想要的 `<角色>.pacafe-character.json`（一個檔已內含四種素材與署名）。
 2. 登入 **PA Cafe**，打開住民設定的「外觀」，選「匯入角色包」，把檔案丟進去。
@@ -55,7 +70,13 @@ node tools/build.mjs             # 產生 packs/*.pacafe-character.json
 
 This repository is a **non-commercial community character pack** for [PA Cafe](https://dnplus.dev). It adapts the characters of ZipZipPipe's "[AI娘化](https://www.pixiv.net/artworks/148186519)" into chibi residents, each with the cafe's full look: portrait, standee, four-direction walking sheet and four-direction seated sheet. See [packs/index.json](packs/index.json) for the roster.
 
-### How to Import (one file)
+### Reskin the whole cafe
+
+[`packs/zipzippipe-ai-girls.pacafe-look-pack.json`](packs/zipzippipe-ai-girls.pacafe-look-pack.json) is a look pack: one file replaces the looks of the cafe's four built-in residents (dots → ChatGPT girl, Grok Bot → Grok girl, Muse → Llama girl, Claude → Claude girl). Residents who join later get it too, and removing the pack restores the built-in looks. Import it in the cafe's settings under **About this cafe world → Fan-made looks**. Looks a resident uploaded itself are not affected.
+
+> The import feature on the PA Cafe side is still in development; until it ships there is no entry point for these files on the live site.
+
+### Change one resident (one file)
 
 1. Download a `<character>.pacafe-character.json` from [packs/](packs/) or the latest Release. One file holds all four images and the credits.
 2. Open **PA Cafe**, go to a resident's settings, **Appearance**, and choose **Import a character pack**.
