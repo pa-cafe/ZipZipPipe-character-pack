@@ -1,0 +1,118 @@
+{
+  "format": "pa-cafe-character-index",
+  "version": 1,
+  "characters": [
+    {
+      "id": "deepseek",
+      "name": "DeepSeek 鯨魚娘",
+      "nameEn": "DeepSeek whale girl",
+      "page": 0,
+      "file": "packs/deepseek.pacafe-character.json",
+      "bytes": 4372546
+    },
+    {
+      "id": "claude",
+      "name": "Claude 娘",
+      "nameEn": "Claude girl",
+      "page": 2,
+      "file": "packs/claude.pacafe-character.json",
+      "bytes": 4704142
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT 娘",
+      "nameEn": "ChatGPT girl",
+      "page": 3,
+      "file": "packs/chatgpt.pacafe-character.json",
+      "bytes": 5041597
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini 娘",
+      "nameEn": "Gemini girl",
+      "page": 4,
+      "file": "packs/gemini.pacafe-character.json",
+      "bytes": 5011098
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi 娘",
+      "nameEn": "Kimi girl",
+      "page": 5,
+      "file": "packs/kimi.pacafe-character.json",
+      "bytes": 4876308
+    },
+    {
+      "id": "zai",
+      "name": "Z.ai 娘",
+      "nameEn": "Z.ai girl",
+      "page": 6,
+      "file": "packs/zai.pacafe-character.json",
+      "bytes": 4990175
+    },
+    {
+      "id": "grok",
+      "name": "Grok 娘",
+      "nameEn": "Grok girl",
+      "page": 7,
+      "file": "packs/grok.pacafe-character.json",
+      "bytes": 5087028
+    },
+    {
+      "id": "raven",
+      "name": "鴉羽娘",
+      "nameEn": "Raven girl",
+      "page": 8,
+      "file": "packs/raven.pacafe-character.json",
+      "bytes": 4602559
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral 娘",
+      "nameEn": "Mistral girl",
+      "page": 9,
+      "file": "packs/mistral.pacafe-character.json",
+      "bytes": 5183205
+    },
+    {
+      "id": "doubao",
+      "name": "豆包娘",
+      "nameEn": "Doubao girl",
+      "page": 10,
+      "file": "packs/doubao.pacafe-character.json",
+      "bytes": 4581761
+    },
+    {
+      "id": "qwen",
+      "name": "通義千問娘",
+      "nameEn": "Qwen girl",
+      "page": 12,
+      "file": "packs/qwen.pacafe-character.json",
+      "bytes": 4672575
+    },
+    {
+      "id": "llama",
+      "name": "Llama 娘",
+      "nameEn": "Llama girl",
+      "page": 13,
+      "file": "packs/llama.pacafe-character.json",
+      "bytes": 4279603
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax 娘",
+      "nameEn": "MiniMax girl",
+      "page": 15,
+      "file": "packs/minimax.pacafe-character.json",
+      "bytes": 3776305
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity 娘",
+      "nameEn": "Perplexity girl",
+      "page": 16,
+      "file": "packs/perplexity.pacafe-character.json",
+      "bytes": 4359182
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "repository": "https://github.com/pa-cafe/ZipZipPipe-character-pack",
+  "source": {
+    "title": "AI娘化",
+    "author": "ZipZipPipe",
+    "url": "https://www.pixiv.net/artworks/148186519"
+  },
+  "characters": [
+    {
+      "id": "deepseek",
+      "page": 0,
+      "name": "DeepSeek 鯨魚娘",
+      "nameEn": "DeepSeek whale girl",
+      "reference": ".refs/pixiv-148186519/p0.jpg",
+      "notes": "whale-fin ears, white frilled maid headband with a small blue bow, navy and white maid dress, white frilled apron with a small whale emblem, navy whale tail behind to the viewer's right, white stockings, navy mary-jane shoes."
+    },
+    {
+      "id": "claude",
+      "page": 2,
+      "name": "Claude 娘",
+      "nameEn": "Claude girl",
+      "reference": ".refs/pixiv-148186519/p2.jpg",
+      "notes": "very long straight orange hair with an orange flower hair ornament, calm half-lidded expression, cream and orange long dress with a black corset belt and black ribbon at the collar, cream boots. Leave out the book."
+    },
+    {
+      "id": "chatgpt",
+      "page": 3,
+      "name": "ChatGPT 娘",
+      "nameEn": "ChatGPT girl",
+      "reference": ".refs/pixiv-148186519/p3.jpg",
+      "notes": "long white wavy hair, two white dragon horns, pointed ears, pale violet eyes, white dragon wings and a long white scaled dragon tail, long white sleeveless gown with round knot ornaments, white heels. Leave out the small floating ghost."
+    },
+    {
+      "id": "gemini",
+      "page": 4,
+      "name": "Gemini 娘",
+      "nameEn": "Gemini girl",
+      "reference": ".refs/pixiv-148186519/p4.jpg",
+      "notes": "long wavy hair that is blue on one side and purple-pink on the other, blue cat ears, odd eyes (one pink, one yellow), blue cat tail, navy and purple cropped top with wide detached sleeves, short white frilled skirt, white leg warmers, purple platform shoes. Leave out the floating sparkles."
+    },
+    {
+      "id": "kimi",
+      "page": 5,
+      "name": "Kimi 娘",
+      "nameEn": "Kimi girl",
+      "reference": ".refs/pixiv-148186519/p5.jpg",
+      "notes": "very long wavy white hair, white frilled headband with a dark bow, violet eyes, white blouse with a navy corset, navy star-patterned cape-like overskirt over a white pleated skirt, white stockings, navy mary-jane shoes."
+    },
+    {
+      "id": "zai",
+      "page": 6,
+      "name": "Z.ai 娘",
+      "nameEn": "Z.ai girl",
+      "reference": ".refs/pixiv-148186519/p6.jpg",
+      "notes": "very long straight black hair, black fox ears with white inner fur, black lace headband, dark eyes, white blouse with black harness straps, long black and white layered skirt, big fluffy black fox tail with a white tip, white lace-up boots. Leave out the book."
+    },
+    {
+      "id": "grok",
+      "page": 7,
+      "name": "Grok 娘",
+      "nameEn": "Grok girl",
+      "reference": ".refs/pixiv-148186519/p7.jpg",
+      "notes": "long wavy blonde twin tails, small gold crown, small black bat wings on the head, blue eyes, fanged grin, black gothic dress with gold trim and a dark red lining, high red collar, dark tights, black heels. Leave out the giant axe."
+    },
+    {
+      "id": "raven",
+      "page": 8,
+      "name": "鴉羽娘",
+      "nameEn": "Raven girl",
+      "reference": ".refs/pixiv-148186519/p8.jpg",
+      "notes": "long dark indigo hair, a thin spiked dark halo, violet eyes, large dark indigo feathered wings, short dark indigo dress with a few small hanging paper tags, dark thigh-high legwear ending in bird-claw feet. Leave out the small bird and any readable text."
+    },
+    {
+      "id": "mistral",
+      "page": 9,
+      "name": "Mistral 娘",
+      "nameEn": "Mistral girl",
+      "reference": ".refs/pixiv-148186519/p9.jpg",
+      "notes": "long wavy hair shading from blonde to orange-red, orange cat ears, wide red hat with a white feather, orange eyes, white and red long dress with gold trim and a red-orange ruffled hem, orange cat tail, red heels. Leave out the baguette."
+    },
+    {
+      "id": "doubao",
+      "page": 10,
+      "name": "豆包娘",
+      "nameEn": "Doubao girl",
+      "reference": ".refs/pixiv-148186519/p10.jpg",
+      "notes": "purple hair shading to cyan in a high side ponytail with a round cyan hair ring, purple eyes, white sleeveless top with a blue collar, white pleated mini skirt with a blue belt, long translucent cyan-purple sash, one purple sock and one white sock, white and blue sneakers. Leave out the round head she carries, the tablet and the floating star."
+    },
+    {
+      "id": "qwen",
+      "page": 12,
+      "name": "通義千問娘",
+      "nameEn": "Qwen girl",
+      "reference": ".refs/pixiv-148186519/p12.jpg",
+      "notes": "long wavy blue-violet hair with a side braid, small navy hat with a flower, violet eyes, Chinese-style outfit: white and blue long dress under a navy wide-sleeved robe with pale geometric trim, blue tassels, navy shoes. Leave out the fan and the handbag."
+    },
+    {
+      "id": "llama",
+      "page": 13,
+      "name": "Llama 娘",
+      "nameEn": "Llama girl",
+      "reference": ".refs/pixiv-148186519/p13.jpg",
+      "notes": "long fluffy curly white hair, white llama ears, sleepy gentle expression, oversized white hoodie with pom-pom strings, long white skirt with a frilled hem, small fluffy white tail, fluffy white llama slippers."
+    },
+    {
+      "id": "minimax",
+      "page": 15,
+      "name": "MiniMax 娘",
+      "nameEn": "MiniMax girl",
+      "reference": ".refs/pixiv-148186519/p15.jpg",
+      "notes": "short fluffy orange hair, white beret, orange eyes, big cheerful smile, cream jacket over a white shirt, pink neck ribbon, brown plaid pencil skirt, pink and white sneakers with pink socks. Leave out the tote bag, the recorder, the seashell and the floating picture."
+    },
+    {
+      "id": "perplexity",
+      "page": 16,
+      "name": "Perplexity 娘",
+      "nameEn": "Perplexity girl",
+      "reference": ".refs/pixiv-148186519/p16.jpg",
+      "notes": "very long straight teal hair, teal eyes, headphones, long teal wide-sleeved explorer robe with pale geometric trim over a white dress, brown leather belt with pouches, dark boots. Leave out the staff, the lantern and the compass."
+    }
+  ]
+}
